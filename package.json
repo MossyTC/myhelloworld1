@@ -1,0 +1,18 @@
+{
+  "name": "myhelloworld1",
+  "version": "1.0.0",
+  "description": "A simple Hello World skill",
+  "main": "source/index.js",
+  "alexa": {
+    "applicationId": "[SKILL_ID]"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^4.2.3"
+  },
+  "devDependencies": {}
+}

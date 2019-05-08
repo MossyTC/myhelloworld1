@@ -1,0 +1,292 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "hello one world",
+      "intents": [
+        {
+          "name": "NameIntent",
+          "slots": [
+            {
+              "name": "NAME",
+              "type": "NOT_LITERAL",
+              "samples": []
+            },
+            {
+              "name": "AGE",
+              "type": "NUMBER",
+              "samples": []
+            }
+          ],
+          "samples": [
+            "My name is {NAME} and I am {one|AGE} years old",
+            "my name's {NAME} and I am {two|AGE} years old",
+            "My name is {NAME} and I am {three|AGE}",
+            "my name's {NAME} and I am {four|AGE}",
+            "My name is {NAME} and I am {five|AGE} years old",
+            "my name's {NAME} and I am {six|AGE} years old",
+            "My name is {NAME} and I am {seven|AGE}",
+            "my name's {NAME} and I am {eight|AGE}",
+            "My name is {NAME} and I am {nine|AGE} years old",
+            "my name's {NAME} and I am {ten|AGE} years old",
+            "My name is {NAME} and I am {eleven|AGE}",
+            "my name's {NAME} and I am {twelve|AGE}",
+            "My name is {NAME} and I am {thirteen|AGE} years old",
+            "my name's {NAME} and I am {fourteen|AGE} years old",
+            "My name is {NAME} and I am {fifteen|AGE}",
+            "my name's {NAME} and I am {sixteen|AGE}",
+            "My name is {NAME} and I am {seventeen|AGE} years old",
+            "my name's {NAME} and I am {eighteen|AGE} years old",
+            "My name is {NAME} and I am {nineteen|AGE}",
+            "my name's {NAME} and I am {twenty|AGE}",
+            "My name is {NAME} and I am {twenty one|AGE} years old",
+            "my name's {NAME} and I am {twenty two|AGE} years old",
+            "My name is {NAME} and I am {twenty three|AGE}",
+            "my name's {NAME} and I am {twenty four|AGE}",
+            "My name is {NAME} and I am {twenty five|AGE} years old",
+            "my name's {NAME} and I am {twenty six|AGE} years old",
+            "My name is {NAME} and I am {twenty seven|AGE}",
+            "my name's {NAME} and I am {twenty eight|AGE}",
+            "My name is {NAME} and I am {twenty nine|AGE} years old",
+            "my name's {NAME} and I am {thirty|AGE} years old",
+            "My name is {NAME} and I am {thirty one|AGE}",
+            "my name's {NAME} and I am {thirty two|AGE}",
+            "My name is {NAME} and I am {thirty three|AGE} years old",
+            "my name's {NAME} and I am {thirty four|AGE} years old",
+            "My name is {NAME} and I am {thirty five|AGE}",
+            "my name's {NAME} and I am {thirty six|AGE}",
+            "My name is {NAME} and I am {thirty seven|AGE} years old",
+            "my name's {NAME} and I am {thirty eight|AGE} years old",
+            "My name is {NAME} and I am {thirty nine|AGE}",
+            "my name's {NAME} and I am {forty|AGE}",
+            "My name is {NAME} and I am {forty one|AGE} years old",
+            "my name's {NAME} and I am {forty two|AGE} years old",
+            "My name is {NAME} and I am {forty three|AGE}",
+            "my name's {NAME} and I am {forty four|AGE}",
+            "My name is {NAME} and I am {forty five|AGE} years old",
+            "my name's {NAME} and I am {forty six|AGE} years old",
+            "My name is {NAME} and I am {forty seven|AGE}",
+            "my name's {NAME} and I am {forty eight|AGE}",
+            "My name is {NAME} and I am {forty nine|AGE} years old",
+            "my name's {NAME} and I am {fifty|AGE} years old",
+            "My name is {NAME} and I am {fifty one|AGE}",
+            "my name's {NAME} and I am {fifty two|AGE}",
+            "My name is {NAME} and I am {fifty three|AGE} years old",
+            "my name's {NAME} and I am {fifty four|AGE} years old",
+            "My name is {NAME} and I am {fifty five|AGE}",
+            "my name's {NAME} and I am {fifty six|AGE}",
+            "My name is {NAME} and I am {fifty seven|AGE} years old",
+            "my name's {NAME} and I am {fifty eight|AGE} years old",
+            "My name is {NAME} and I am {fifty nine|AGE}",
+            "my name's {NAME} and I am {sixty|AGE}",
+            "My name is {NAME} and I am {sixty one|AGE} years old",
+            "my name's {NAME} and I am {sixty two|AGE} years old",
+            "My name is {NAME} and I am {sixty three|AGE}",
+            "my name's {NAME} and I am {sixty four|AGE}",
+            "My name is {NAME} and I am {sixty five|AGE} years old",
+            "my name's {NAME} and I am {sixty six|AGE} years old",
+            "My name is {NAME} and I am {sixty seven|AGE}",
+            "my name's {NAME} and I am {sixty eight|AGE}",
+            "My name is {NAME} and I am {sixty nine|AGE} years old",
+            "my name's {NAME} and I am {seventy|AGE} years old",
+            "My name is {NAME} and I am {seventy one|AGE}",
+            "my name's {NAME} and I am {seventy two|AGE}",
+            "My name is {NAME} and I am {seventy three|AGE} years old",
+            "my name's {NAME} and I am {seventy four|AGE} years old",
+            "My name is {NAME} and I am {seventy five|AGE}",
+            "my name's {NAME} and I am {seventy six|AGE}",
+            "My name is {NAME} and I am {seventy seven|AGE} years old",
+            "my name's {NAME} and I am {seventy eight|AGE} years old",
+            "My name is {NAME} and I am {seventy nine|AGE}",
+            "my name's {NAME} and I am {eighty|AGE}",
+            "My name is {NAME} and I am {eighty one|AGE} years old",
+            "my name's {NAME} and I am {eighty two|AGE} years old",
+            "My name is {NAME} and I am {eighty three|AGE}",
+            "my name's {NAME} and I am {eighty four|AGE}",
+            "My name is {NAME} and I am {eighty five|AGE} years old",
+            "my name's {NAME} and I am {eighty six|AGE} years old",
+            "My name is {NAME} and I am {eighty seven|AGE}",
+            "my name's {NAME} and I am {eighty eight|AGE}",
+            "My name is {NAME} and I am {eighty nine|AGE} years old",
+            "my name's {NAME} and I am {ninety|AGE} years old",
+            "My name is {NAME} and I am {ninety one|AGE}",
+            "my name's {NAME} and I am {ninety two|AGE}",
+            "My name is {NAME} and I am {ninety three|AGE} years old",
+            "my name's {NAME} and I am {ninety four|AGE} years old",
+            "My name is {NAME} and I am {ninety five|AGE}",
+            "my name's {NAME} and I am {ninety six|AGE}",
+            "My name is {NAME} and I am {ninety seven|AGE} years old",
+            "my name's {NAME} and I am {ninety eight|AGE} years old",
+            "My name is {NAME} and I am {ninety nine|AGE}",
+            "my name's {NAME} and I am {one hundred|AGE}"
+          ]
+        },
+        {
+          "name": "AgeIntent",
+          "slots": [
+            {
+              "name": "AGE",
+              "type": "NUMBER",
+              "samples": []
+            }
+          ],
+          "samples": [
+            "My age is {one|AGE}",
+            "My age is {two|AGE}",
+            "My age is {three|AGE}",
+            "My age is {four|AGE}",
+            "My age is {five|AGE}",
+            "My age is {six|AGE}",
+            "My age is {seven|AGE}",
+            "My age is {eight|AGE}",
+            "My age is {nine|AGE}",
+            "My age is {ten|AGE}",
+            "My age is {eleven|AGE}",
+            "My age is {twelve|AGE}",
+            "My age is {thirteen|AGE}",
+            "My age is {fourteen|AGE}",
+            "My age is {fifteen|AGE}",
+            "My age is {sixteen|AGE}",
+            "My age is {seventeen|AGE}",
+            "My age is {eighteen|AGE}",
+            "My age is {nineteen|AGE}",
+            "My age is {twenty|AGE}",
+            "My age is {twenty one|AGE}",
+            "My age is {twenty two|AGE}",
+            "My age is {twenty three|AGE}",
+            "My age is {twenty four|AGE}",
+            "My age is {twenty five|AGE}",
+            "My age is {twenty six|AGE}",
+            "My age is {twenty seven|AGE}",
+            "My age is {twenty eight|AGE}",
+            "My age is {twenty nine|AGE}",
+            "My age is {thirty|AGE}",
+            "My age is {thirty one|AGE}",
+            "My age is {thirty two|AGE}",
+            "My age is {thirty three|AGE}",
+            "My age is {thirty four|AGE}",
+            "My age is {thirty five|AGE}",
+            "My age is {thirty six|AGE}",
+            "My age is {thirty seven|AGE}",
+            "My age is {thirty eight|AGE}",
+            "My age is {thirty nine|AGE}",
+            "My age is {forty|AGE}",
+            "My age is {forty one|AGE}",
+            "My age is {forty two|AGE}",
+            "My age is {forty three|AGE}",
+            "My age is {forty four|AGE}",
+            "My age is {forty five|AGE}",
+            "My age is {forty six|AGE}",
+            "My age is {forty seven|AGE}",
+            "My age is {forty eight|AGE}",
+            "My age is {forty nine|AGE}",
+            "My age is {fifty|AGE}",
+            "My age is {fifty one|AGE}",
+            "My age is {fifty two|AGE}",
+            "My age is {fifty three|AGE}",
+            "My age is {fifty four|AGE}",
+            "My age is {fifty five|AGE}",
+            "My age is {fifty six|AGE}",
+            "My age is {fifty seven|AGE}",
+            "My age is {fifty eight|AGE}",
+            "My age is {fifty nine|AGE}",
+            "My age is {sixty|AGE}",
+            "My age is {sixty one|AGE}",
+            "My age is {sixty two|AGE}",
+            "My age is {sixty three|AGE}",
+            "My age is {sixty four|AGE}",
+            "My age is {sixty five|AGE}",
+            "My age is {sixty six|AGE}",
+            "My age is {sixty seven|AGE}",
+            "My age is {sixty eight|AGE}",
+            "My age is {sixty nine|AGE}",
+            "My age is {seventy|AGE}",
+            "My age is {seventy one|AGE}",
+            "My age is {seventy two|AGE}",
+            "My age is {seventy three|AGE}",
+            "My age is {seventy four|AGE}",
+            "My age is {seventy five|AGE}",
+            "My age is {seventy six|AGE}",
+            "My age is {seventy seven|AGE}",
+            "My age is {seventy eight|AGE}",
+            "My age is {seventy nine|AGE}",
+            "My age is {eighty|AGE}",
+            "My age is {eighty one|AGE}",
+            "My age is {eighty two|AGE}",
+            "My age is {eighty three|AGE}",
+            "My age is {eighty four|AGE}",
+            "My age is {eighty five|AGE}",
+            "My age is {eighty six|AGE}",
+            "My age is {eighty seven|AGE}",
+            "My age is {eighty eight|AGE}",
+            "My age is {eighty nine|AGE}",
+            "My age is {ninety|AGE}",
+            "My age is {ninety one|AGE}",
+            "My age is {ninety two|AGE}",
+            "My age is {ninety three|AGE}",
+            "My age is {ninety four|AGE}",
+            "My age is {ninety five|AGE}",
+            "My age is {ninety six|AGE}",
+            "My age is {ninety seven|AGE}",
+            "My age is {ninety eight|AGE}",
+            "My age is {ninety nine|AGE}",
+            "My age is {one hundred|AGE}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "matt",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "bob",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "bill",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "jake",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "nancy",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "mary",
+                "synonyms": []
+              }
+            },
+            {
+              "name": {
+                "value": "jane",
+                "synonyms": []
+              }
+            }
+          ],
+          "name": "NOT_LITERAL"
+        }
+      ]
+    }
+  },
+  "version": "1"
+}
